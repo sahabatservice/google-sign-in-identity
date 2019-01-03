@@ -28,8 +28,6 @@ if(isset($payload)){
   $_SESSION['given_name']   = $payload['given_name'];
   $_SESSION['family_name']  = $payload['family_name'];
   $_SESSION['locale']       = $payload['locale'];
-  print_r($payload);
-  die();
   echo "<script>location.href='http://localhost:8000';</script>";
 }
 ?>
