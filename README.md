@@ -51,3 +51,5 @@ $google_client->setScopes("profile");
 
 ?>
 ```
+### Get Credentials Google
+[Google API Console Credentials page.](https://console.developers.google.com/apis/credentials)
