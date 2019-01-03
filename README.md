@@ -29,7 +29,10 @@ Finally, be sure to include the autoloader:
 require_once '/path/to/your-project/vendor/autoload.php';
 ```
 
+### Update Config.php
+
 ```php
+
 <?php
 session_start();
 require_once "vendor/autoload.php";
