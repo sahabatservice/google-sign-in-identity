@@ -30,7 +30,7 @@ require_once '/path/to/your-project/vendor/autoload.php';
 ```
 
 ### Update Config.php
-
+[config file](https://github.com/sahabatservice/google-sign-in-identity/blob/master/config.php)
 ```php
 
 <?php
