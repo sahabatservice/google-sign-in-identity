@@ -3,7 +3,7 @@ require_once 'config.php';
 $auth_url = $google_client->createAuthUrl();
 ?>
 <a href='<?php echo $auth_url; ?>'><button>Login Via Google </button></a><hr>
-<?php
+
 if(isset($_SESSION)){
   echo 'Google Account ID'.$_SESSION['google_id']."<br>";
   echo 'Google Account Name'.$_SESSION['name']."<br>";
