@@ -32,7 +32,7 @@ require_once '/path/to/your-project/vendor/autoload.php';
 
 <?php
 session_start();
-require_once "vendor/autoload.php";
+require_once 'vendor/autoload.php';
 
 $redirect_uri       = "<Your REDIRECT URI>";
 $client_id          = "<Your Client ID>";
