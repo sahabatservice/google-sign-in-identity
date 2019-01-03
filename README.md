@@ -4,9 +4,6 @@ Google Plus API deprecated On March 7, 2019
 ## Requirements ##
 * [PHP 5.4.0 or higher](http://www.php.net/)
 
-## Developer Documentation ##
-http://developers.google.com/api-client-library/php
-
 ## Installation ##
 
 You can use **Composer** or simply **Download the Release**
