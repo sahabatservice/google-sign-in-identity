@@ -14,7 +14,6 @@ $google_client->setClientSecret($client_secret);
 //your Redirect URI
 $google_client->setRedirectUri($redirect_uri);
 //scope
-$google_client->setScopes("email");
-$google_client->setScopes("profile");
+$google_client->setScopes("profile email");
 
 ?>
